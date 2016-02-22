@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - jobeet@localhost" uuid="9f4f22d1-5fb6-49ba-a4ae-ba0df7951255">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>jobeet.*</schema-pattern>
+      <default-schemas>jobeet.*</default-schemas>
+    </data-source>
+  </component>
+</project>

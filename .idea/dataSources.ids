@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - jobeet@localhost" uuid="9f4f22d1-5fb6-49ba-a4ae-ba0df7951255">
+    <database-info product="MySQL" version="5.5.47-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="jobeet"/>
+      <table id="2" parent="1" name="jobeet_affiliate"/>
+      <table id="3" parent="1" name="jobeet_category"/>
+      <table id="4" parent="1" name="jobeet_category_affiliate"/>
+      <table id="5" parent="1" name="jobeet_job"/>
+      <table id="6" parent="1" name="sf_guard_forgot_password"/>
+      <table id="7" parent="1" name="sf_guard_group"/>
+      <table id="8" parent="1" name="sf_guard_group_permission"/>
+      <table id="9" parent="1" name="sf_guard_permission"/>
+      <table id="10" parent="1" name="sf_guard_remember_key"/>
+      <table id="11" parent="1" name="sf_guard_user"/>
+      <table id="12" parent="1" name="sf_guard_user_group"/>
+      <table id="13" parent="1" name="sf_guard_user_permission"/>
+      <column id="14" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="15" parent="2" name="url">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="16" parent="2" name="email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="17" parent="2" name="token">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="18" parent="2" name="is_active">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="19" parent="2" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="20" parent="2" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="21" parent="2" name="email">
+        <columns>email</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="22" parent="2" name="email">
+        <columns>email</columns>
+        <underlying-index>email</underlying-index>
+      </key>
+      <key id="23" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="24" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="25" parent="3" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="26" parent="3" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="27" parent="3" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="28" parent="3" name="slug">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <index id="29" parent="3" name="sluggable_idx">
+        <columns>slug</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="30" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="31" parent="3" name="sluggable_idx">
+        <columns>slug</columns>
+        <underlying-index>sluggable_idx</underlying-index>
+      </key>
+      <column id="32" parent="4" name="category_id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="33" parent="4" name="affiliate_id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="34" parent="4" name="jobeet_category_affiliate_affiliate_id_jobeet_affiliate_id">
+        <columns>affiliate_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="35" parent="4" name="PRIMARY">
+        <columns>category_id
+affiliate_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="36" parent="4" name="jobeet_category_affiliate_affiliate_id_jobeet_affiliate_id">
+        <columns>affiliate_id</columns>
+        <ref-key>~.jobeet_affiliate.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="37" parent="4" name="jobeet_category_affiliate_category_id_jobeet_category_id">
+        <columns>category_id</columns>
+        <ref-key>~.jobeet_category.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="38" parent="5" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="39" parent="5" name="category_id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="40" parent="5" name="type">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="41" parent="5" name="company">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="42" parent="5" name="logo">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="43" parent="5" name="url">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="44" parent="5" name="position">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="45" parent="5" name="location">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="46" parent="5" name="description">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="47" parent="5" name="how_to_apply">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="48" parent="5" name="token">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="49" parent="5" name="is_public">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="50" parent="5" name="is_activated">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="51" parent="5" name="email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="52" parent="5" name="expires_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="53" parent="5" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="54" parent="5" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="55" parent="5" name="category_id_idx">
+        <columns>category_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="56" parent="5" name="token">
+        <columns>token</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="57" parent="5" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="58" parent="5" name="token">
+        <columns>token</columns>
+        <underlying-index>token</underlying-index>
+      </key>
+      <foreign-key id="59" parent="5" name="jobeet_job_category_id_jobeet_category_id">
+        <columns>category_id</columns>
+        <ref-key>~.jobeet_category.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="60" parent="6" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="61" parent="6" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="62" parent="6" name="unique_key">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="63" parent="6" name="expires_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="64" parent="6" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="65" parent="6" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="66" parent="6" name="user_id_idx">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="67" parent="6" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="68" parent="6" name="sf_guard_forgot_password_user_id_sf_guard_user_id">
+        <columns>user_id</columns>
+        <ref-key>~.sf_guard_user.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="69" parent="7" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="70" parent="7" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="71" parent="7" name="description">
+        <data-type>text</data-type>
+      </column>
+      <column id="72" parent="7" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="73" parent="7" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="74" parent="7" name="name">
+        <columns>name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="75" parent="7" name="name">
+        <columns>name</columns>
+        <underlying-index>name</underlying-index>
+      </key>
+      <key id="76" parent="7" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="77" parent="8" name="group_id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="78" parent="8" name="permission_id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="79" parent="8" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="80" parent="8" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="81" parent="8" name="sf_guard_group_permission_permission_id_sf_guard_permission_id">
+        <columns>permission_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="82" parent="8" name="PRIMARY">
+        <columns>group_id
+permission_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="83" parent="8" name="sf_guard_group_permission_group_id_sf_guard_group_id">
+        <columns>group_id</columns>
+        <ref-key>~.sf_guard_group.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="84" parent="8" name="sf_guard_group_permission_permission_id_sf_guard_permission_id">
+        <columns>permission_id</columns>
+        <ref-key>~.sf_guard_permission.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="85" parent="9" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="86" parent="9" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="87" parent="9" name="description">
+        <data-type>text</data-type>
+      </column>
+      <column id="88" parent="9" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="89" parent="9" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="90" parent="9" name="name">
+        <columns>name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="91" parent="9" name="name">
+        <columns>name</columns>
+        <underlying-index>name</underlying-index>
+      </key>
+      <key id="92" parent="9" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="93" parent="10" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="94" parent="10" name="user_id">
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="95" parent="10" name="remember_key">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="96" parent="10" name="ip_address">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="97" parent="10" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="98" parent="10" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="99" parent="10" name="user_id_idx">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="100" parent="10" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="101" parent="10" name="sf_guard_remember_key_user_id_sf_guard_user_id">
+        <columns>user_id</columns>
+        <ref-key>~.sf_guard_user.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="102" parent="11" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="103" parent="11" name="first_name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="104" parent="11" name="last_name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="105" parent="11" name="email_address">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="106" parent="11" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)</data-type>
+      </column>
+      <column id="107" parent="11" name="algorithm">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)</data-type>
+        <default-expression>&apos;sha1&apos;</default-expression>
+      </column>
+      <column id="108" parent="11" name="salt">
+        <data-type>varchar(128)</data-type>
+      </column>
+      <column id="109" parent="11" name="password">
+        <data-type>varchar(128)</data-type>
+      </column>
+      <column id="110" parent="11" name="is_active">
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="111" parent="11" name="is_super_admin">
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="112" parent="11" name="last_login">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="113" parent="11" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="114" parent="11" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="115" parent="11" name="email_address">
+        <columns>email_address</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="116" parent="11" name="is_active_idx_idx">
+        <columns>is_active</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="117" parent="11" name="username">
+        <columns>username</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="118" parent="11" name="email_address">
+        <columns>email_address</columns>
+        <underlying-index>email_address</underlying-index>
+      </key>
+      <key id="119" parent="11" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="120" parent="11" name="username">
+        <columns>username</columns>
+        <underlying-index>username</underlying-index>
+      </key>
+      <column id="121" parent="12" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="122" parent="12" name="group_id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="123" parent="12" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="124" parent="12" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="125" parent="12" name="sf_guard_user_group_group_id_sf_guard_group_id">
+        <columns>group_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="126" parent="12" name="PRIMARY">
+        <columns>user_id
+group_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="127" parent="12" name="sf_guard_user_group_group_id_sf_guard_group_id">
+        <columns>group_id</columns>
+        <ref-key>~.sf_guard_group.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="128" parent="12" name="sf_guard_user_group_user_id_sf_guard_user_id">
+        <columns>user_id</columns>
+        <ref-key>~.sf_guard_user.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="129" parent="13" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="130" parent="13" name="permission_id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="131" parent="13" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="132" parent="13" name="updated_at">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="133" parent="13" name="sf_guard_user_permission_permission_id_sf_guard_permission_id">
+        <columns>permission_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="134" parent="13" name="PRIMARY">
+        <columns>user_id
+permission_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="135" parent="13" name="sf_guard_user_permission_permission_id_sf_guard_permission_id">
+        <columns>permission_id</columns>
+        <ref-key>~.sf_guard_permission.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="136" parent="13" name="sf_guard_user_permission_user_id_sf_guard_user_id">
+        <columns>user_id</columns>
+        <ref-key>~.sf_guard_user.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+    </database-model>
+  </data-source>
+</component>
