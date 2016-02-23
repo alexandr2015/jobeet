@@ -3123,3 +3123,54 @@ Feb 19 15:53:02 symfony [info] {sfPHPView} Decorate content with "/var/www/html/
 Feb 19 15:53:02 symfony [info] {sfPHPView} Render "/var/www/html/jobeet/apps/frontend/templates/layout.php"
 Feb 19 15:53:02 symfony [info] {main} Get slot "title"
 Feb 19 15:53:02 symfony [info] {sfWebResponse} Send content (4940 o)
+Feb 23 09:14:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 09:14:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /affiliate/index with parameters array (  'module' => 'affiliate',  'action' => 'index',)
+Feb 23 09:14:20 symfony [info] {sfFrontWebController} Action "affiliate/index" does not exist
+Feb 23 09:14:20 symfony [err] {sfError404Exception} Action "affiliate/index" does not exist.
+Feb 23 09:14:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 09:14:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Feb 23 09:14:20 symfony [info] {sfFrontWebController} Action "api/index" does not exist
+Feb 23 09:14:20 symfony [err] {sfError404Exception} Action "api/index" does not exist.
+Feb 23 09:14:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 09:14:21 symfony [info] {sfPatternRouting} Match route "category" (/category/:slug) for /category/index with parameters array (  'module' => 'category',  'action' => 'show',  'slug' => 'index',)
+Feb 23 09:14:21 symfony [info] {sfFilterChain} Executing filter "sfFakeRenderingFilter"
+Feb 23 09:14:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 09:14:21 symfony [info] {categoryActions} Call "categoryActions->executeShow()"
+Feb 23 09:14:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 09:17:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 09:17:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /affiliate/index with parameters array (  'module' => 'affiliate',  'action' => 'index',)
+Feb 23 09:17:13 symfony [info] {sfFrontWebController} Action "affiliate/index" does not exist
+Feb 23 09:17:13 symfony [err] {sfError404Exception} Action "affiliate/index" does not exist.
+Feb 23 09:17:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 09:17:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Feb 23 09:17:13 symfony [info] {sfFrontWebController} Action "api/index" does not exist
+Feb 23 09:17:13 symfony [err] {sfError404Exception} Action "api/index" does not exist.
+Feb 23 09:17:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 09:17:13 symfony [info] {sfPatternRouting} Match route "category" (/category/:slug) for /category/index with parameters array (  'module' => 'category',  'action' => 'show',  'slug' => 'index',)
+Feb 23 09:17:13 symfony [info] {sfFilterChain} Executing filter "sfFakeRenderingFilter"
+Feb 23 09:17:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 09:17:13 symfony [info] {categoryActions} Call "categoryActions->executeShow()"
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT j.id AS j__id, j.name AS j__name, j.created_at AS j__created_at, j.updated_at AS j__updated_at, j.slug AS j__slug FROM jobeet_category j WHERE (j.slug = ?) - (index)
+Feb 23 09:17:13 symfony [err] {sfError404Exception} Unable to find the JobeetCategory object with the following parameters "array (  'slug' => 'index',)").
+Feb 23 09:17:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Mysql} exec : DELETE FROM jobeet_job - ()
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Mysql} exec : DELETE FROM jobeet_category - ()
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT j.id AS j__id, j.slug AS j__slug FROM jobeet_category j WHERE (j.slug LIKE ?) - (design%)
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO jobeet_category (name, created_at, updated_at, slug) VALUES (?, ?, ?, ?) - (Design, 2016-02-23 09:17:13, 2016-02-23 09:17:13, design)
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT j.id AS j__id, j.slug AS j__slug FROM jobeet_category j WHERE (j.slug LIKE ?) - (programming%)
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO jobeet_category (name, created_at, updated_at, slug) VALUES (?, ?, ?, ?) - (Programming, 2016-02-23 09:17:13, 2016-02-23 09:17:13, programming)
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT j.id AS j__id, j.slug AS j__slug FROM jobeet_category j WHERE (j.slug LIKE ?) - (manager%)
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO jobeet_category (name, created_at, updated_at, slug) VALUES (?, ?, ?, ?) - (Manager, 2016-02-23 09:17:13, 2016-02-23 09:17:13, manager)
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT j.id AS j__id, j.slug AS j__slug FROM jobeet_category j WHERE (j.slug LIKE ?) - (administrator%)
+Feb 23 09:17:13 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO jobeet_category (name, created_at, updated_at, slug) VALUES (?, ?, ?, ?) - (Administrator, 2016-02-23 09:17:13, 2016-02-23 09:17:13, administrator)
+Feb 23 09:17:14 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO jobeet_job (is_public, is_activated, category_id, type, company, logo, url, position, location, description, how_to_apply, token, email, expires_at, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 1, 246, full-time, Sensio Labs, /uploads/jobs/sensio_labs.png, http://www.sensiolabs.com/, Web Developer, Paris, France, [0.27Kb], Send your resume to fabien.potencier [at] sensio.com
+, job_sensio_labs, job@example.com, 2016-10-10, 2016-02-23 09:17:14, 2016-02-23 09:17:14)
+Feb 23 09:17:14 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO jobeet_job (is_public, is_activated, category_id, type, company, logo, url, position, location, description, how_to_apply, token, email, expires_at, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - (1, 1, 245, part-time, Extreme Sensio, /uploads/jobs/extreme_sensio.png, http://www.extreme-sensio.com/, Web Designer, Paris, France, [0.44Kb], Send your resume to fabien.potencier [at] sensio.com
+, job_extreme_sensio, job@example.com, 2016-10-10, 2016-02-23 09:17:14, 2016-02-23 09:17:14)
+Feb 23 09:17:14 symfony [info] {sfPatternRouting} Match route "job_new" (/job/new.:sf_format) for /job/new with parameters array (  'module' => 'job',  'action' => 'new',  'sf_format' => 'html',)
+Feb 23 09:17:14 symfony [info] {sfFilterChain} Executing filter "sfFakeRenderingFilter"
+Feb 23 09:17:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 09:17:14 symfony [info] {jobActions} Call "jobActions->executeNew()"

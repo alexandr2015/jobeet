@@ -16934,3 +16934,108 @@ Feb 22 17:41:02 symfony [info] {sfWebDebugLogger} Configuration 1.20 ms (9)
 Feb 22 17:41:02 symfony [info] {sfWebDebugLogger} Factories 13.63 ms (1)
 Feb 22 17:41:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
 Feb 22 17:41:02 symfony [info] {sfWebDebugLogger} Action "affiliate/ListActivate" 23.22 ms (1)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Feb 23 09:18:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /search with parameters array (  'module' => 'search',  'action' => 'index',)
+Feb 23 09:18:32 symfony [info] {sfFrontWebController} Action "search/index" does not exist
+Feb 23 09:18:32 symfony [err] {sfError404Exception} Action "search/index" does not exist.
+Feb 23 09:18:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 23 09:18:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 23 09:18:32 symfony [info] {sfWebDebugLogger} Configuration 108.51 ms (5)
+Feb 23 09:18:32 symfony [info] {sfWebDebugLogger} Factories 81.51 ms (1)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Feb 23 09:18:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 09:18:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 09:18:39 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Feb 23 09:18:39 symfony [info] {sfBasicSecurityFilter} Action "job/index" requires authentication, forwarding to "sfGuardAuth/signin"
+Feb 23 09:18:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 09:18:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 09:18:39 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Feb 23 09:18:39 symfony [info] {sfPHPView} Render "/var/www/html/jobeet/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Feb 23 09:18:39 symfony [info] {sfPartialView} Render "/var/www/html/jobeet/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Feb 23 09:18:39 symfony [info] {sfPHPView} Decorate content with "/var/www/html/jobeet/apps/backend/templates/layout.php"
+Feb 23 09:18:39 symfony [info] {sfPHPView} Render "/var/www/html/jobeet/apps/backend/templates/layout.php"
+Feb 23 09:18:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Feb 23 09:18:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 23 09:18:39 symfony [info] {sfWebDebugLogger} Configuration 46.13 ms (14)
+Feb 23 09:18:39 symfony [info] {sfWebDebugLogger} Factories 14.96 ms (1)
+Feb 23 09:18:39 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 2.13 ms (1)
+Feb 23 09:18:39 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 7.15 ms (1)
+Feb 23 09:18:39 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 2.00 ms (1)
+Feb 23 09:18:39 symfony [info] {sfWebResponse} Send content (109332 o)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/guard/login) for /guard/login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Feb 23 09:18:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 09:18:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 09:18:40 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Feb 23 09:18:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 23 09:18:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sf_guard_user s WHERE (s.username = ? AND s.is_active = ?) - (fabien, 1)
+Feb 23 09:18:40 symfony [info] {myUser} User is authenticated
+Feb 23 09:18:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.user_id AS s2__user_id, s2.permission_id AS s2__permission_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_permission s LEFT JOIN sf_guard_user_permission s2 ON s.id = s2.permission_id WHERE (s2.user_id IN (?)) - (1)
+Feb 23 09:18:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.user_id AS s2__user_id, s2.group_id AS s2__group_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_group s LEFT JOIN sf_guard_user_group s2 ON s.id = s2.group_id WHERE (s2.user_id IN (?)) - (1)
+Feb 23 09:18:40 symfony [info] {myUser} Add credential(s) ""
+Feb 23 09:18:40 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE sf_guard_user SET last_login = ?, updated_at = ? WHERE id = ? - (2016-02-23 09:18:40, 2016-02-23 09:18:40, 1)
+Feb 23 09:18:40 symfony [info] {sfFrontWebController} Redirect to "http://jobeet.loc/backend_dev.php/"
+Feb 23 09:18:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 23 09:18:40 symfony [info] {sfWebResponse} Send header "Location: http://jobeet.loc/backend_dev.php/"
+Feb 23 09:18:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 23 09:18:40 symfony [info] {sfWebDebugLogger} Configuration 1.49 ms (8)
+Feb 23 09:18:40 symfony [info] {sfWebDebugLogger} Factories 12.45 ms (1)
+Feb 23 09:18:40 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 89.95 ms (1)
+Feb 23 09:18:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.05 ms (5)
+Feb 23 09:18:40 symfony [info] {sfWebResponse} Send content (105 o)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Feb 23 09:18:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Feb 23 09:18:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 23 09:18:40 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Feb 23 09:18:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 23 09:18:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+Feb 23 09:18:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 23 09:18:40 symfony [info] {jobActions} Call "jobActions->executeIndex()"

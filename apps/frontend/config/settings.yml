@@ -24,6 +24,12 @@ test:
 
 all:
   .settings:
+    enabled_modules:
+      - default
+      - sfJobeetAffiliate
+      - sfJobeetApi
+      - sfJobeetCategory
+      - sfJobeetJob
     # Form security secret (CSRF protection)
     csrf_secret:            9019aaeed92e30a64380015fcc284aaef438a93f
 
