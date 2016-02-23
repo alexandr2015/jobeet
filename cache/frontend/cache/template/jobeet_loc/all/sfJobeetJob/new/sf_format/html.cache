@@ -1,0 +1,529 @@
+001456305293001456218893a:3:{s:7:"content";s:17848:"<h1>New Jobeet job</h1>
+
+
+<form method="post" action="/frontend_cache.php/job"><table id="job_form">
+  <tfoot>
+  <tr>
+    <td colspan="2">
+      <input type="submit" value="Preview your job" />
+    </td>
+  </tr>
+  </tfoot>
+  <tbody>
+  <tr>
+  <th><label for="jobeet_job_category_id">Category</label></th>
+  <td><select name="jobeet_job[category_id]" id="jobeet_job_category_id">
+<option value="73">Programming</option>
+<option value="74">Design</option>
+<option value="75">Manager</option>
+<option value="76">Administrator</option>
+</select></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_type">Type</label></th>
+  <td><input type="text" name="jobeet_job[type]" id="jobeet_job_type" /></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_company">Company</label></th>
+  <td><input type="text" name="jobeet_job[company]" id="jobeet_job_company" /></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_logo">Logo</label></th>
+  <td><input type="text" name="jobeet_job[logo]" id="jobeet_job_logo" /></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_url">Url</label></th>
+  <td><input type="text" name="jobeet_job[url]" id="jobeet_job_url" /></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_position">Position</label></th>
+  <td><input type="text" name="jobeet_job[position]" id="jobeet_job_position" /></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_location">Location</label></th>
+  <td><input type="text" name="jobeet_job[location]" id="jobeet_job_location" /></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_description">Description</label></th>
+  <td><textarea rows="4" cols="30" name="jobeet_job[description]" id="jobeet_job_description"></textarea></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_how_to_apply">How to apply</label></th>
+  <td><textarea rows="4" cols="30" name="jobeet_job[how_to_apply]" id="jobeet_job_how_to_apply"></textarea></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_token">Token</label></th>
+  <td><input type="text" name="jobeet_job[token]" id="jobeet_job_token" /></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_is_public">Is public</label></th>
+  <td><input type="checkbox" name="jobeet_job[is_public]" checked="checked" id="jobeet_job_is_public" /></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_is_activated">Is activated</label></th>
+  <td><input type="checkbox" name="jobeet_job[is_activated]" checked="checked" id="jobeet_job_is_activated" /></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_email">Email</label></th>
+  <td><input type="text" name="jobeet_job[email]" id="jobeet_job_email" /></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_expires_at">Expires at</label></th>
+  <td><select name="jobeet_job[expires_at][month]" id="jobeet_job_expires_at_month">
+<option value="" selected="selected"></option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select>/<select name="jobeet_job[expires_at][day]" id="jobeet_job_expires_at_day">
+<option value="" selected="selected"></option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>/<select name="jobeet_job[expires_at][year]" id="jobeet_job_expires_at_year">
+<option value="" selected="selected"></option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+</select> <select name="jobeet_job[expires_at][hour]" id="jobeet_job_expires_at_hour">
+<option value="" selected="selected"></option>
+<option value="0">00</option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+</select>:<select name="jobeet_job[expires_at][minute]" id="jobeet_job_expires_at_minute">
+<option value="" selected="selected"></option>
+<option value="0">00</option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+</select></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_created_at">Created at</label></th>
+  <td><select name="jobeet_job[created_at][month]" id="jobeet_job_created_at_month">
+<option value="" selected="selected"></option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select>/<select name="jobeet_job[created_at][day]" id="jobeet_job_created_at_day">
+<option value="" selected="selected"></option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>/<select name="jobeet_job[created_at][year]" id="jobeet_job_created_at_year">
+<option value="" selected="selected"></option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+</select> <select name="jobeet_job[created_at][hour]" id="jobeet_job_created_at_hour">
+<option value="" selected="selected"></option>
+<option value="0">00</option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+</select>:<select name="jobeet_job[created_at][minute]" id="jobeet_job_created_at_minute">
+<option value="" selected="selected"></option>
+<option value="0">00</option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+</select></td>
+</tr>
+<tr>
+  <th><label for="jobeet_job_updated_at">Updated at</label></th>
+  <td><select name="jobeet_job[updated_at][month]" id="jobeet_job_updated_at_month">
+<option value="" selected="selected"></option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select>/<select name="jobeet_job[updated_at][day]" id="jobeet_job_updated_at_day">
+<option value="" selected="selected"></option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>/<select name="jobeet_job[updated_at][year]" id="jobeet_job_updated_at_year">
+<option value="" selected="selected"></option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+</select> <select name="jobeet_job[updated_at][hour]" id="jobeet_job_updated_at_hour">
+<option value="" selected="selected"></option>
+<option value="0">00</option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+</select>:<select name="jobeet_job[updated_at][minute]" id="jobeet_job_updated_at_minute">
+<option value="" selected="selected"></option>
+<option value="0">00</option>
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+</select><input type="hidden" name="jobeet_job[id]" id="jobeet_job_id" />
+<input type="hidden" name="jobeet_job[_csrf_token]" value="3c44159b9152098d9d9cea304aa31e0f" id="jobeet_job__csrf_token" /></td>
+</tr>
+  </tbody>
+</table>
+</form>";s:17:"decoratorTemplate";s:55:"/var/www/html/jobeet/apps/frontend/templates/layout.php";s:8:"response";C:13:"sfWebResponse":517:{a:12:{i:0;s:0:"";i:1;i:200;i:2;s:2:"OK";i:3;a:5:{s:13:"http_protocol";s:8:"HTTP/1.1";s:7:"logging";s:1:"1";s:7:"charset";s:5:"utf-8";s:17:"send_http_headers";b:1;s:12:"content_type";s:24:"text/html; charset=utf-8";}i:4;a:0:{}i:5;b:0;i:6;a:1:{s:12:"Content-Type";s:24:"text/html; charset=utf-8";}i:7;a:0:{}i:8;a:1:{s:12:"Content-Type";s:24:"text/html; charset=utf-8";}i:9;a:3:{s:5:"first";a:0:{}s:0:"";a:1:{s:8:"main.css";a:0:{}}s:4:"last";a:0:{}}i:10;a:3:{s:5:"first";a:0:{}s:0:"";a:0:{}s:4:"last";a:0:{}}i:11;a:0:{}}}}

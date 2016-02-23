@@ -6,7 +6,7 @@
  * Time: 11:33
  */
 
-class BackendJobeetJobForm extends JobeetJobForm
+abstract class PluginBackendJobeetJobForm extends JobeetJobForm
 {
     public function configure()
     {

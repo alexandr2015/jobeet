@@ -2,77 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8df67c0c-e969-4f4d-9208-d0e78bd97c03" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/config/routing.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/affiliate/actions/actions.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/affiliate/templates/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/affiliate/templates/newSuccess.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/affiliate/templates/waitSuccess.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/api/actions/actions.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/api/config/view.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/category/actions/actions.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/category/templates/showSuccess.atom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/category/templates/showSuccess.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/job/actions/actions.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/job/templates/_admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/job/templates/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/job/templates/_list.atom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/job/templates/_list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/job/templates/editSuccess.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/job/templates/indexSuccess.atom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/job/templates/indexSuccess.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/job/templates/newSuccess.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/job/templates/searchSuccess.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/job/templates/showSuccess.atom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/frontend/modules/job/templates/showSuccess.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_job_config_filters.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_job_config_module.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_job_config_security.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_job_config_view.yml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/doctrine/schema.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/error/error.yaml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/error/exception.yaml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Jobeet.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/filter/doctrine/JobeetAffiliateFormFilter.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/filter/doctrine/JobeetCategoryAffiliateFormFilter.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/filter/doctrine/JobeetCategoryFormFilter.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/filter/doctrine/JobeetJobFormFilter.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/filter/doctrine/base/BaseJobeetAffiliateFormFilter.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/filter/doctrine/base/BaseJobeetCategoryAffiliateFormFilter.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/filter/doctrine/base/BaseJobeetCategoryFormFilter.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/filter/doctrine/base/BaseJobeetJobFormFilter.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/form/BaseForm.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/form/doctrine/BackendJobeetJobForm.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/form/doctrine/JobeetAffiliateForm.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/form/doctrine/JobeetCategoryAffiliateForm.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/form/doctrine/JobeetCategoryForm.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/form/doctrine/JobeetJobForm.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/form/doctrine/base/BaseJobeetAffiliateForm.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/form/doctrine/base/BaseJobeetCategoryAffiliateForm.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/form/doctrine/base/BaseJobeetCategoryForm.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/form/doctrine/base/BaseJobeetJobForm.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/model/doctrine/JobeetAffiliate.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/model/doctrine/JobeetAffiliateTable.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/model/doctrine/JobeetCategory.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/model/doctrine/JobeetCategoryAffiliate.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/model/doctrine/JobeetCategoryAffiliateTable.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/model/doctrine/JobeetCategoryTable.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/model/doctrine/JobeetJob.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/model/doctrine/JobeetJobTable.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/model/doctrine/base/BaseJobeetAffiliate.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/model/doctrine/base/BaseJobeetCategory.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/model/doctrine/base/BaseJobeetCategoryAffiliate.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/model/doctrine/base/BaseJobeetJob.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/task/JobeetCleanupTask.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_app.yml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_autoload.yml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_config_handlers.yml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_databases.yml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_factories.yml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_routing.yml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_settings.yml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_sfJobeetJob_config_filters.yml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_sfJobeetJob_config_module.yml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_sfJobeetJob_config_security.yml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_sfJobeetJob_config_view.yml.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/BackendJobeetJobForm.class.php" afterPath="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginBackendJobeetJobForm.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/BaseFormDoctrine.class.php" afterPath="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginBaseFormDoctrine.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/JobeetAffiliateForm.class.php" afterPath="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginJobeetAffiliateForm.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/JobeetCategoryAffiliateForm.class.php" afterPath="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginJobeetCategoryAffiliateForm.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/JobeetCategoryForm.class.php" afterPath="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginJobeetCategoryForm.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/JobeetJobForm.class.php" afterPath="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginJobeetJobForm.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/config/settings.yml" afterPath="$PROJECT_DIR$/apps/frontend/config/settings.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/frontend/lib/myUser.class.php" afterPath="$PROJECT_DIR$/apps/frontend/lib/myUser.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_app.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_app.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_autoload.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_autoload.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_config_handlers.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_config_handlers.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_databases.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_databases.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_factories.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_factories.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_routing.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_routing.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_settings.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_settings.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_app.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/config_app.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_autoload.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/config_autoload.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_config_handlers.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/config_config_handlers.yml.php" />
@@ -85,49 +33,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_module.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_module.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_security.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_security.yml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_view.yml.php" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/modules_default_config_view.yml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/ProjectConfiguration.class.php" afterPath="$PROJECT_DIR$/config/ProjectConfiguration.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/filter/doctrine/BaseFormFilterDoctrine.class.php" afterPath="$PROJECT_DIR$/lib/filter/doctrine/BaseFormFilterDoctrine.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/filter/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardGroupFormFilter.class.php" afterPath="$PROJECT_DIR$/lib/filter/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardGroupFormFilter.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/filter/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardPermissionFormFilter.class.php" afterPath="$PROJECT_DIR$/lib/filter/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardPermissionFormFilter.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/filter/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardUserFormFilter.class.php" afterPath="$PROJECT_DIR$/lib/filter/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardUserFormFilter.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/filter/doctrine/sfDoctrineGuardPlugin/sfGuardGroupFormFilter.class.php" afterPath="$PROJECT_DIR$/lib/filter/doctrine/sfDoctrineGuardPlugin/sfGuardGroupFormFilter.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/filter/doctrine/sfDoctrineGuardPlugin/sfGuardPermissionFormFilter.class.php" afterPath="$PROJECT_DIR$/lib/filter/doctrine/sfDoctrineGuardPlugin/sfGuardPermissionFormFilter.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/filter/doctrine/sfDoctrineGuardPlugin/sfGuardUserFormFilter.class.php" afterPath="$PROJECT_DIR$/lib/filter/doctrine/sfDoctrineGuardPlugin/sfGuardUserFormFilter.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/BaseFormDoctrine.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/BaseFormDoctrine.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardGroupForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardGroupForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardPermissionForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardPermissionForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardUserForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardUserForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/sfDoctrineGuardPlugin/sfGuardGroupForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/sfDoctrineGuardPlugin/sfGuardGroupForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/sfDoctrineGuardPlugin/sfGuardPermissionForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/sfDoctrineGuardPlugin/sfGuardPermissionForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/form/doctrine/sfDoctrineGuardPlugin/sfGuardUserForm.class.php" afterPath="$PROJECT_DIR$/lib/form/doctrine/sfDoctrineGuardPlugin/sfGuardUserForm.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardForgotPassword.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardForgotPassword.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardGroup.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardGroup.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardGroupPermission.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardGroupPermission.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardPermission.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardPermission.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardRememberKey.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardRememberKey.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardUser.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardUser.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardUserGroup.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardUserGroup.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardUserPermission.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/base/BasesfGuardUserPermission.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardForgotPassword.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardForgotPassword.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardForgotPasswordTable.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardForgotPasswordTable.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardGroup.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardGroup.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardGroupPermission.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardGroupPermission.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardGroupPermissionTable.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardGroupPermissionTable.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardGroupTable.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardGroupTable.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardPermission.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardPermission.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardPermissionTable.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardPermissionTable.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardRememberKey.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardRememberKey.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardRememberKeyTable.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardRememberKeyTable.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUser.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUser.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserGroup.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserGroup.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserGroupTable.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserGroupTable.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserPermission.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserPermission.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserPermissionTable.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserPermissionTable.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserTable.class.php" afterPath="$PROJECT_DIR$/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserTable.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vendor/symfony/lib/user/sfUser.class.php" afterPath="$PROJECT_DIR$/lib/vendor/symfony/lib/user/sfUser.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/backend_dev.log" afterPath="$PROJECT_DIR$/log/backend_dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/frontend_dev.log" afterPath="$PROJECT_DIR$/log/frontend_dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/frontend_test.log" afterPath="$PROJECT_DIR$/log/frontend_test.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/generator/sfDoctrineFormGenerator.class.php" afterPath="$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/generator/sfDoctrineFormGenerator.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/form/doctrine/BaseFormDoctrine.class.php" afterPath="$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/form/doctrine/BaseFormDoctrine.class.php" />
     </list>
     <ignored path="jobeet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -166,41 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JobeetUser.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/JobeetUser.class.php">
+      <file leaf-file-name="actions.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/modules/sfJobeetJob/actions/actions.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6666667">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myUser.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/lib/myUser.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6666667">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sfPluginConfiguration.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/config/sfPluginConfiguration.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sfUser.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/user/sfUser.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70149255">
-              <caret line="331" column="0" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.2985075">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -221,20 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/backend/modules/affiliate/config/generator.yml" />
-        <option value="$PROJECT_DIR$/apps/backend/modules/affiliate/lib/affiliateGeneratorConfiguration.class.php" />
-        <option value="$PROJECT_DIR$/lib/model/doctrine/JobeetAffiliate.class.php" />
-        <option value="$PROJECT_DIR$/apps/backend/templates/layout.php" />
-        <option value="$PROJECT_DIR$/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/Mime/Headers/AbstractHeader.php" />
-        <option value="$PROJECT_DIR$/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/Mime/Headers/MailboxHeader.php" />
-        <option value="$PROJECT_DIR$/apps/backend/modules/affiliate/actions/actions.class.php" />
-        <option value="$PROJECT_DIR$/lib/model/doctrine/JobeetJob.class.php" />
-        <option value="$PROJECT_DIR$/lib/vendor/Zend/Loader/Autoloader.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/modules/job/templates/searchSuccess.php" />
-        <option value="$PROJECT_DIR$/lib/model/doctrine/JobeetJobTable.class.php" />
-        <option value="$PROJECT_DIR$/lib/task/JobeetCleanupTask.class.php" />
-        <option value="$PROJECT_DIR$/apps/frontend/config/view.yml" />
-        <option value="$PROJECT_DIR$/lib/vendor/symfony/lib/helper/AssetHelper.php" />
         <option value="$PROJECT_DIR$/apps/frontend/templates/layout.php" />
         <option value="$PROJECT_DIR$/web/js/search.js" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/job/actions/actions.class.php" />
@@ -263,15 +126,29 @@
         <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/modules/sfJobeetJob/templates/showSuccess.php" />
         <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/modules/sfJobeetJob/templates/indexSuccess.php" />
         <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/modules/sfJobeetCategory/templates/showSuccess.php" />
-        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/modules/sfJobeetJob/actions/actions.class.php" />
         <option value="$PROJECT_DIR$/apps/frontend/config/routing.yml" />
-        <option value="$PROJECT_DIR$/apps/frontend/config/settings.yml" />
         <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/JobeetUser.php" />
         <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/config/sfPluginConfiguration.php" />
         <option value="$PROJECT_DIR$/lib/vendor/symfony/lib/event_dispatcher/sfEvent.php" />
         <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/JobeetUser.class.php" />
         <option value="$PROJECT_DIR$/apps/frontend/lib/myUser.class.php" />
         <option value="$PROJECT_DIR$/lib/vendor/symfony/lib/user/sfUser.class.php" />
+        <option value="$PROJECT_DIR$/web/frontend_cache.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/config/settings.yml" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/modules/sfJobeetJob/config/cache.yml" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/JobeetJobForm.class.php" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/BackendJobeetJobForm.class.php" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/BaseFormDoctrine.class.php" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/JobeetAffiliateForm.class.php" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/JobeetCategoryAffiliateForm.class.php" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/JobeetCategoryForm.class.php" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/modules/sfJobeetJob/actions/actions.class.php" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginBackendJobeetJobForm.class.php" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginBaseFormDoctrine.class.php" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginJobeetAffiliateForm.class.php" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginJobeetCategoryAffiliateForm.class.php" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginJobeetCategoryForm.class.php" />
+        <option value="$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginJobeetJobForm.class.php" />
       </list>
     </option>
   </component>
@@ -382,26 +259,12 @@
               <option name="myItemId" value="sfJobeetPlugin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jobeet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jobeet" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sfJobeetPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="sfJobeetJob" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,7 +286,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sfJobeetJob" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -437,11 +308,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
+              <option name="myItemId" value="sfJobeetPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,15 +330,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
+              <option name="myItemId" value="sfJobeetPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jobeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jobeet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jobeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jobeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doctrine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -595,117 +502,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/vendor/Zend/Loader/Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9259257">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/Zend/Loader/Autoloader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13559322">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/action/sfAction.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.444445">
-          <caret line="170" column="18" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/job.dev.index/optimization.lock.file">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/job.dev.index/segments_14">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/job.dev.index/read.lock.file">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery-1.12.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7641823">
-          <caret line="3" column="9828" selection-start-line="3" selection-start-column="9828" selection-end-line="3" selection-end-column="9828" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/config/view.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36813778">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/Zend/Search/Lucene/Interface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33259425">
-          <caret line="373" column="20" selection-start-line="373" selection-start-column="20" selection-end-line="373" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/helper/AssetHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4678899">
-          <caret line="497" column="0" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/98ae0e1c/9f4f22d1-5fb6-49ba-a4ae-ba0df7951255/jobeet.jobeet_job">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.041474655">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/templates/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26633784">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/ProjectConfiguration.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84745765">
@@ -922,22 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/config/settings.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5824373">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/modules/sfJobeetJob/actions/actions.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62711865">
-          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/modules/sfJobeetAffiliate/templates/_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10169491">
@@ -1018,10 +798,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/user/sfUser.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70149255">
-          <caret line="331" column="0" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.333333">
+          <caret line="326" column="88" selection-start-line="326" selection-start-column="88" selection-end-line="326" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/config/settings.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/config/cache.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/modules/sfJobeetJob/config/cache.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend_cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23946784">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/BaseForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/form/doctrine/PluginBaseFormDoctrine.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/form/doctrine/sfJobeetPlugin/JobeetJobForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29850745">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginBackendJobeetJobForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08955224">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginBaseFormDoctrine.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29850745">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginJobeetAffiliateForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20895523">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginJobeetCategoryAffiliateForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29850745">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginJobeetCategoryForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29850745">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/lib/form/doctrine/PluginJobeetJobForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43979058">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/sfJobeetPlugin/modules/sfJobeetJob/actions/actions.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2985075">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -8,25 +8,11 @@
  * @author     Your name here
  * @version    SVN: $Id: sfDoctrineFormTemplate.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
  */
-class JobeetJobForm extends BaseJobeetJobForm
+abstract class PluginJobeetJobForm extends BaseJobeetJobForm
 {
   public function configure()
   {
-//    $this->useFields([
-//      'category_id',
-//      'type',
-//      'company',
-//      'logo',
-//      'url',
-//      'position',
-//      'location',
-//      'description',
-//      'how_to_apply',
-//      'token',
-//      'is_public',
-//      'email',
-//    ]);
-
+    $this->disableLocalCSRFProtection();
     $this->removeFields();
 
     $this->validatorSchema['email'] = new sfValidatorAnd([

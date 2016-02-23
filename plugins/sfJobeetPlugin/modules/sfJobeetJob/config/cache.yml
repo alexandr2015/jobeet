@@ -1,0 +1,8 @@
+new:
+  enabled:     true
+
+index:
+  enabled:     true
+
+all:
+  with_layout: false
